@@ -10,6 +10,8 @@ html,body{
 .welcome {
     background-image: url("background.jpg");
     background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(208, 119, 192, 0.377);
     min-height:700px;
     opacity: 1;
    background-repeat: no-repeat;
@@ -49,7 +51,7 @@ div.scrollmenu {
   width:autos;
  color: #ffffff;
  margin-left: 5%;
- margin-top: 15%;
+ margin-top: 160px;
  width:50%;
  font-size: 34px;
  }
@@ -193,9 +195,8 @@ text-align: left;
 }
 
 .rating > img {
-margin-left: 46%;
-justify-content: center;
+margin: 0px auto;
+display: block;
 margin-bottom: 40px;
-height: 60px;
-width: 100px;
+width: 150px;
 }
