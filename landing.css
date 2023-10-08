@@ -214,6 +214,7 @@ div.note {
     display: flex;
     flex-direction: column;
     flex-flow: column;
+    width: 100%;
   }
   .pic > img {
     width: 350px;
