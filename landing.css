@@ -210,6 +210,11 @@ div.note {
 }
 
 @media (max-width: 912px) {
+  div.scrollmenu a {
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: none;
+  }
   .flex-container2 {
     display: flex;
     flex-direction: column;
@@ -219,6 +224,8 @@ div.note {
   .pic > img {
     width: 350px;
     height: 250px;
+    display: flex;
+    justify-content: center;
   }
   .container2-item > h2 {
     width: 60%;
@@ -234,5 +241,16 @@ div.note {
   }
   .container-item > p {
     font-size: 14px;
+  }
+  .container2-item > h2 {
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .container2-item > p {
+    margin-top: 27px;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 10px;
   }
 }
