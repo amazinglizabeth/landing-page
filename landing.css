@@ -210,10 +210,15 @@ div.note {
 }
 
 @media (max-width: 912px) {
+  html,
+  body {
+    width: 100%;
+  }
   div.scrollmenu a {
     font-size: 12px;
     padding: 10px;
     text-decoration: none;
+    padding-top: 10px;
   }
   .flex-container2 {
     display: flex;
@@ -252,5 +257,6 @@ div.note {
     text-align: left;
     margin-left: 10px;
     font-size: 10px;
+    width: 100%;
   }
 }
