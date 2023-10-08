@@ -255,8 +255,7 @@ div.note {
   .container2-item > p {
     margin-top: 27px;
     text-align: left;
-    margin-left: 10px;
     font-size: 10px;
-    width: 100%;
+    width: 50%;
   }
 }
