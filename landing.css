@@ -213,6 +213,7 @@ div.note {
   html,
   body {
     width: 100%;
+    overflow: hidden;
   }
   div.scrollmenu a {
     font-size: 12px;
@@ -255,7 +256,7 @@ div.note {
   .container2-item > p {
     margin-top: 27px;
     text-align: left;
-    font-size: 10px;
+    font-size: 14px;
     width: 50%;
   }
 }
