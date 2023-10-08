@@ -213,7 +213,7 @@ div.note {
   html,
   body {
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   div.scrollmenu a {
     font-size: 12px;
