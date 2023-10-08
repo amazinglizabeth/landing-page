@@ -1,99 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} 
-html,body{
+}
+html,
+body {
   font-family: inter, sans-serif;
 }
 .welcome {
-    background-image: url("background.jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgba(208, 119, 192, 0.377);
-    min-height:700px;
-    opacity: 1;
-   background-repeat: no-repeat;
-   position: relative;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(208, 119, 192, 0.377);
+  min-height: 700px;
+  opacity: 1;
+  background-repeat: no-repeat;
+  position: relative;
 }
 div.scrollmenu {
-    overflow: auto;
-    white-space: nowrap;
-    float: right;
-  }
+  overflow: auto;
+  white-space: nowrap;
+  float: right;
+}
 
-  div.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    padding: 14px;
-    text-decoration: none;
-  }
-  
-  div.scrollmenu a:hover {
-    background-color:   #5924EC;
-  }
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 14px;
+  text-decoration: none;
+}
 
-  .logo{
-    width: 30px;
-    height: 30px;
-   padding-left: 3%;
-   padding-top: 1%;
-  }
+div.scrollmenu a:hover {
+  background-color: #5924ec;
+}
 
-  .logo > img{
-    width: 20px;
-  }
+.logo {
+  width: 30px;
+  height: 30px;
+  padding-left: 3%;
+  padding-top: 1%;
+}
 
- div.note {
-  width:autos;
- color: #ffffff;
- margin-left: 5%;
- margin-top: 160px;
- width:50%;
- font-size: 34px;
- }
+.logo > img {
+  width: 20px;
+}
 
-.note > h1{
+div.note {
+  width: autos;
+  color: #ffffff;
+  margin-left: 5%;
+  margin-top: 160px;
+  width: 50%;
+  font-size: 34px;
+}
+
+.note > h1 {
   font-size: 58px;
 }
- .note > p {
+.note > p {
   margin-top: 30px;
   font-size: 16px;
   line-height: 23px;
- }
+}
 
- .button {
-  background-color:  #5924EC;
+.button {
+  background-color: #5924ec;
   padding: 17px 33px;
   font-family: inter;
   font-weight: 600;
   letter-spacing: 3px;
   margin-top: 20px;
-  border: 2px  #5924EC;
+  border: 2px #5924ec;
   color: #ffffff;
- }
+}
 
- .stage1 {
+.stage1 {
   margin-top: 7%;
   text-align: center;
- }
+}
 
- .stage1 > h2 {
+.stage1 > h2 {
   font-size: 24px;
- }
+}
 
- .stage1 > p {
+.stage1 > p {
   margin-left: 33%;
- margin-top: 13px;
- width: 35%;
- line-height: 23px;
- font-size: 16px;
- }
+  margin-top: 13px;
+  width: 35%;
+  line-height: 23px;
+  font-size: 16px;
+}
 
-.flex-container{
+.flex-container {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -105,19 +106,19 @@ div.scrollmenu {
   margin: 55px;
   text-align: center;
   justify-items: center;
-  line-height:20px;
+  line-height: 20px;
 }
 
-.icon > img{
+.icon > img {
   width: 50px;
   height: 50px;
   margin: 10px;
   padding: 5px;
-  background-color:  #5924EC;
-  border-radius: 50%; 
+  background-color: #5924ec;
+  border-radius: 50%;
 }
 
-.container-item > p{ 
+.container-item > p {
   margin-top: 20px;
   margin-bottom: 70px;
   font-size: 16px;
@@ -125,9 +126,9 @@ div.scrollmenu {
 
 .flex-container2 {
   display: flex;
- justify-content: center;
+  justify-content: center;
   flex-wrap: nowrap;
-  background-color: #F5F5F5
+  background-color: #f5f5f5;
 }
 
 .flex-container2 > div {
@@ -138,12 +139,12 @@ div.scrollmenu {
   font-size: 16px;
 }
 
-.pic > img{
+.pic > img {
   width: 490px;
   height: 330px;
 }
 
-.container2-item > h2{
+.container2-item > h2 {
   width: 90%;
   text-align: left;
   margin-left: 20px;
@@ -151,36 +152,35 @@ div.scrollmenu {
   line-height: 40px;
 }
 .container2-item > p {
-margin-top: 27px;
-text-align: left;
- margin-left: 20px;
- font-size: 16px;
+  margin-top: 27px;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 16px;
 }
 
-
-.list{
+.list {
   margin-top: 30px;
   margin-left: 17px;
   font-size: 13px;
   line-height: 24px;
-list-style-type: square;
-list-style-position: inside;
-text-align: left;
+  list-style-type: square;
+  list-style-position: inside;
+  text-align: left;
 }
 
 .container2-item > button {
-  background-color:  #5924EC;
+  background-color: #5924ec;
   padding: 19px 35px;
   font-family: inter;
   font-weight: 600;
   letter-spacing: 3px;
   margin-top: 33px;
   margin-left: 20px;
-  border: 2px  #5924EC;
+  border: 2px #5924ec;
   color: #ffffff;
 }
 
-.testimonial > img{
+.testimonial > img {
   margin-top: 90px;
   border-radius: 50%;
   margin-left: 47%;
@@ -195,8 +195,43 @@ text-align: left;
 }
 
 .rating > img {
-margin: 0px auto;
-display: block;
-margin-bottom: 40px;
-width: 150px;
+  margin: 0px auto;
+  display: block;
+  margin-bottom: 40px;
+  width: 150px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 912px) {
+  .flex-container2 {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+  }
+  .pic > img {
+    width: 350px;
+    height: 250px;
+  }
+  .container2-item > h2 {
+    width: 60%;
+  }
+  .container2-item > p {
+    margin-left: -46px;
+    font-size: 14px;
+  }
+  .container-item {
+    width: 200px;
+    line-height: 17px;
+    margin: 12px;
+  }
+  .container-item > p {
+    font-size: 14px;
+  }
 }
