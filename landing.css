@@ -220,6 +220,7 @@ div.note {
     padding: 10px;
     text-decoration: none;
     padding-top: 10px;
+    margin-top: 20px;
   }
   .flex-container2 {
     display: flex;
@@ -256,7 +257,8 @@ div.note {
   .container2-item > p {
     margin-top: 27px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     width: 50%;
+    justify-content: center;
   }
 }
